@@ -3,9 +3,8 @@
 program = "hx"
 args = []
 
-[shell]
-program = "/bin/fish"
-args = ["--login"]
+[platform]
+linux.shell = { program = "/bin/fish", args = [] }
 
 [fonts]
 size = 18
