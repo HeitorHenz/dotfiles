@@ -1,0 +1,46 @@
+
+/* Gruvbox Dark Wofi Theme */
+window {
+    margin: 0px;
+    border: 2px solid #fabd2f; 
+    background-color: #282828; 
+    border-radius: 16px;
+    font-family: "Fira Code";
+    font-weight: 700; 
+    font-size: 14px;   
+}
+
+#outer-box {
+    margin: 10px;
+    border: none;
+    background-color: transparent;
+}
+
+#input {
+    margin-bottom: 10px;
+    border: 1px solid #504945;
+    color: #ebdbb2;
+    background-color: #3c3836;
+    border-radius: 0px;
+}
+
+#inner-box {
+    margin: 5px;
+    border: none;
+    background-color: transparent;
+}
+
+#entry:selected {
+    background-color: #504945;
+    border: none;
+}
+
+#text {
+    margin: 5px;
+    color: #ebdbb2;
+}
+
+#text:selected {
+    color: #fabd2f; /* Yellow text when selected */
+    font-weight: bold;
+}

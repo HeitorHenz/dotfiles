@@ -7,6 +7,16 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "agent": {
+    "default_model": {
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6-latest",
+      "enable_thinking": true,
+      "effort": "high"
+    },
+    "favorite_models": [],
+    "model_parameters": []
+  },
   "helix_mode": false,
   "vim_mode": false,
   "toolbar": {
@@ -16,11 +26,10 @@
     "right_padding": 0.05,
     "left_padding": 0.05,
   },
-  "disable_ai": true,
   "icon_theme": {
-    "mode": "light",
+    "mode": "dark",
     "light": "Colored Zed Icons Theme Dark",
-    "dark": "Colored Zed Icons Theme Dark"
+    "dark": "Colored Zed Icons Theme Dark",
   },
   "buffer_font_family": "Fira Code",
   "ui_font_size": 18,
@@ -40,4 +49,3 @@
     },
   },
 }
-
