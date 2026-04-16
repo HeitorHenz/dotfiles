@@ -1,5 +1,10 @@
 
 {
+  "agent_servers": {
+    "kimi": {
+      "type": "registry"
+    }
+  },
   "agent": {
     "default_profile": "write",
     "default_model": {
